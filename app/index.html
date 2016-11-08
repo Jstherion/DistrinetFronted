@@ -1,0 +1,333 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+  <!--  <link rel="stylesheet" href="styles/main.css">-->
+    <!-- endbuild -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="styles/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/css/font-awesome.min.css" rel="stylesheet">
+    <link href="styles/css/prettyPhoto.css" rel="stylesheet">
+    <link href="styles/css/price-range.css" rel="stylesheet">
+    <link href="styles/css/animate.css" rel="stylesheet">
+    <link href="styles/css/main.css" rel="stylesheet">
+    <link href="styles/css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="scripts/js/html5shiv.js"></script>
+    <script src="scripts/js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="images/ico/favicon.icon">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="stylesheet" href="styles/font-awesome-4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body ng-app="distrinetApp">
+    <header id="header"><!--header-->
+      <div class="header_top"><!--Cabecera-->
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="contactinfo">
+                <ul class="nav nav-pills">
+                  <li><a ng-href="#/sedes"><i class="fa fa-phone"></i> 317 893 90 49 - (4) 351 06 52</a></li>
+                  <li><a ng-href="#/contactenos"><i class="fa fa-envelope"></i> distriherramientas@gmail.com</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="social-icons pull-right">
+                <ul class="nav navbar-nav">
+                  <li><a href="#"><i class=""></i></a></li>
+                  <li><a href="#"><i class=""></i></a></li>
+                  <li><a href="#"><i class=""></i></a></li>
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="https://plus.google.com/103692929115412865467/about"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!--/Cabecera-->
+
+      <div class="header-middle"><!--header-middle-->
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="logo pull-left">
+                <a ng-href="#/main"><img src="images/home/logo.png" alt="" /></a>
+              </div>
+              <div class="btn-group pull-right">
+                <div class="btn-group">
+
+                  </button>
+
+                </div>
+
+                <div class="btn-group">
+
+                  </button>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-8">
+              <div class="shop-menu pull-right">
+                <ul class="nav navbar-nav">
+                  <li><a ng-href="#/login"><i class="fa fa-user"></i> Distrinet</a></li>
+                  <li><a ng-href="#/micarrito"><i class="fa fa-shopping-cart"></i> Carrito</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!--/header-middle-->
+
+      <div class="header-bottom"><!--header-bottom-->
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-9">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div class="mainmenu pull-left">
+                <ul class="nav navbar-nav collapse navbar-collapse">
+                  <li><a ng-href="#/main" class="active">Inicio</a></li>
+                  <li><a ng-href="#/acercade">Acerca de</a></li>
+
+                  </li>
+                  <li class="dropdown"><a>Productos<i class="fa fa-angle-down"></i></a>
+                    <ul role="menu" class="sub-menu">
+                      <li><a ng-href="#/ferreteria">Línea Ferretera</a></li>
+                      <li><a ng-href="#/filtracion">Filtración y Lubricación</a></li>
+                      <li><a ng-href="#/seguridad">Seguridad Industrial</a></li>
+                      <li><a ng-href="#/repuestos">Repuestos de Maquinaria Pesada</a></li>
+
+                    </ul>
+                  </li>
+
+                  <li><a ng-href="#/sedes">Sedes</a></li>
+                  <li><a ng-href="#/contactenos">Contáctenos</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="search_box pull-right">
+                <input type="text" placeholder="Buscar"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!--/header-bottom-->
+    </header><!--/header-->
+
+
+    <div class="container">
+    <div ng-view=""></div>
+    </div>
+
+ <!--   <div class="footer">
+      <div class="container">
+        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+      </div>
+    </div>-->
+
+    <footer id="footer"><!--Footer-->
+    <div class="footer-widget">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-2">
+            <div class="single-widget">
+              <h2>MAQUINARIA PESADA</h2>
+              <ul class="nav nav-pills nav-stacked">
+                <li><a ng-href="#/shoprepuestos">Herramientas de Corte</a></li>
+                <li><a ng-href="#/shoprepuestos">Material de Desgaste</a></li>
+                <li><a ng-href="#/shoprepuestos">Miscelanea</a></li>
+                <li><a ng-href="#/shoprepuestos">Rodamientos</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="single-widget">
+              <h2>FERRETERIA</h2>
+              <ul class="nav nav-pills nav-stacked">
+                <li><a ng-href="#/ferreconstru">Construcción</a></li>
+                <li><a ng-href="#/ferreabrasivos">Abrasivos</a></li>
+                <li><a ng-href="#/ferrehmanual">Herramienta Manual</a></li>
+                <li><a ng-href="#/ferrehelect">Herramientas Electricas</a></li>
+                <li><a ng-href="#/ferregriferia">Griferia</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="single-widget">
+              <h2>FILTRACIÓN Y LUBRICACIÓN</h2>
+              <ul class="nav nav-pills nav-stacked">
+                <li><a ng-href="#/filaceites">Aceites</a></li>
+                <li><a ng-href="#/filtfilt">Filtros</a></li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="single-widget">
+              <h2>SEGURIDAD INDUSTRIAL</h2>
+              <ul class="nav nav-pills nav-stacked">
+                <li><a ng-href="#/segcabeza">Protección de Cabeza y Rostro</a></li>
+                <li><a ng-href="#/segpies">Protección para Pies y Piernas</a></li>
+                <li><a ng-href="#/segauditiva">Protección Auditiva</a></li>
+                <li><a ng-href="#/segcaidas">Protección contra Caídas</a></li>
+                <li><a ng-href="#/segcorporal">Protección Corporal</a></li>
+                <li><a ng-href="#/segmanos">Protección para Manos</a></li>
+                <li><a ng-href="#/segrespira">Protección Respiratoria</a></li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-3 col-sm-offset-1">
+            <div class="single-widget">
+              <h2>Inscribe tu correo</h2>
+              <form action="#" class="searchform">
+                <input type="text" placeholder="Ingresa tu correo" />
+                <button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
+                <p>Recibe las actualizaciones más recientes de nuestro sitio web.</p>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-2">
+            <div class="companyinfo">
+              <h2><span>Distri</span></h2>
+              <h2><span></span>herramientas</h2>
+
+              <p></p>
+            </div>
+          </div>
+
+          <div class="col-sm-7">
+
+
+            <div class="col-sm-">
+              <div class="leftbrands">
+                <br>
+                </br>
+                <div class="marcas">
+                  <div align="center"><img src="images/home/marcas.png" alt="CRC, Terpel, Abracol, Loctite, Herragro, Dewalt, BAD, Bosch, Irwin, Stanley, Ideace, Dremert, Skil, Donaldson, Incolma, Atila, Black & Decker"/></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-sm-3">
+            <div class="address">
+              <img src="images/home/map.png" alt="" />
+              <p>Carrera 63D #42 B- 34 Av. Bolivariana</br>Medellín - Colombia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <p class="pull-left">Copyright © 2016 Distriherramientas S.A.S All rights reserved.</p>
+          <p class="pull-right">Designed by <span><a target="_blank" href="">ADSI</a></span></p>
+        </div>
+      </div>
+    </div>
+
+    </footer><!--/Footer-->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');
+    </script>
+
+        <!-- build:js(.) scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="bower_components/angular-animate/angular-animate.js"></script>
+        <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+        <script src="bower_components/angular-resource/angular-resource.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
+        <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+        <script src="bower_components/angular-touch/angular-touch.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/about.js"></script>
+        <script src="scripts/controllers/acercade.js"></script>
+        <script src="scripts/controllers/sedes.js"></script>
+        <script src="scripts/controllers/contactenos.js"></script>
+        <script src="scripts/controllers/ferreteria.js"></script>
+        <script src="scripts/controllers/filtracion.js"></script>
+        <script src="scripts/controllers/seguridad.js"></script>
+        <script src="scripts/controllers/repuestos.js"></script>
+        <script src="scripts/controllers/shoprespuestos.js"></script>
+        <script src="scripts/controllers/ferreconstru.js"></script>
+        <script src="scripts/controllers/ferreabrasivos.js"></script>
+        <script src="scripts/controllers/ferrehmanual.js"></script>
+        <script src="scripts/controllers/ferrehelect.js"></script>
+        <script src="scripts/controllers/ferregriferia.js"></script>
+        <script src="scripts/controllers/filaceites.js"></script>
+        <script src="scripts/controllers/filtfilt.js"></script>
+        <script src="scripts/controllers/segcabeza.js"></script>
+        <script src="scripts/controllers/segies.js"></script>
+        <script src="scripts/controllers/segauditiva.js"></script>
+        <script src="scripts/controllers/segcaidas.js"></script>
+        <script src="scripts/controllers/segcorporal.js"></script>
+        <script src="scripts/controllers/segmanos.js"></script>
+        <script src="scripts/controllers/segrespira.js"></script>
+        <script src="scripts/controllers/ferreagri.js"></script>
+        <script src="scripts/controllers/ferrepegante.js"></script>
+        <script src="scripts/controllers/ferrequimi.js"></script>
+        <script src="scripts/controllers/login.js"></script>
+        <!-- endbuild -->
+        <script src="scripts/js/jquery.js"></script>
+        <script src="scripts/js/bootstrap.min.js"></script>
+        <script src="scripts/js/jquery.scrollUp.min.js"></script>
+        <script src="scripts/js/price-range.js"></script>
+        <script src="scripts/js/jquery.prettyPhoto.js"></script>
+        <script src="scripts/js/main.js"></script>
+  </body>
+</html>
